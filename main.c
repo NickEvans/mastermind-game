@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <string.h>
 
 int read(char * input, int * check) {
 	int i = 0, num, len;
@@ -9,6 +10,7 @@ int read(char * input, int * check) {
 		input += len;
 		i++;
 	}
+	return 0;
 }
 
 void generate(int * sol) {
