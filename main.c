@@ -10,7 +10,7 @@ int read(char * input, int * check) {
 		input += len;
 		i++;
 	}
-	return 0;
+	return 1;
 }
 
 void generate(int * sol) {
